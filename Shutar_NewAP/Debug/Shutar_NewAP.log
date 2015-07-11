@@ -1,0 +1,30 @@
+﻿Build started 11/07/2015 01:36:44.
+     1>Project "C:\Users\Paulo\Documents\Visual Studio 2013\Projects\shutar-master\Shutar_NewAP\Shutar_NewAP.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Shutar.cpp
+         Shutar.cpp
+     1>c:\users\paulo\documents\visual studio 2013\projects\shutar-master\shutar_newap\tiroinimigo.h(6): warning C4005: 'VTIRO' : macro redefinition
+                 c:\users\paulo\documents\visual studio 2013\projects\shutar-master\shutar_newap\tiro.h(6) : see previous definition of 'VTIRO'
+     1>c:\users\paulo\documents\visual studio 2013\projects\shutar-master\shutar_newap\shutar.cpp(254): warning C4101: 'xini' : unreferenced local variable
+     1>c:\users\paulo\documents\visual studio 2013\projects\shutar-master\shutar_newap\shutar.cpp(377): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\paulo\documents\visual studio 2013\projects\shutar-master\shutar_newap\shutar.cpp(378): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\paulo\documents\visual studio 2013\projects\shutar-master\shutar_newap\shutar.cpp(929): warning C4101: 'ev' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Paulo\Documents\Visual Studio 2013\Projects\shutar-master\Debug\Shutar_NewAP.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Paulo\Documents\Visual Studio 2013\Projects\shutar-master\Debug\Shutar_NewAP.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Paulo\Documents\Visual Studio 2013\Projects\shutar-master\Debug\Shutar_NewAP.lib" /MACHINE:X86 sdl.lib sdlmain.lib opengl32.lib glu32.lib sdl_image.lib sdl_mixer.lib ca2.lib c2d2.lib cator.lib cm2.lib Debug\AtorManager.obj
+         Debug\BatRobo.obj
+         Debug\Bomba.obj
+         Debug\MiniRed.obj
+         Debug\MiniShooter.obj
+         Debug\Nave.obj
+         Debug\Ocorrencia.obj
+         Debug\RedBoss.obj
+         Debug\Shutar.obj
+         Debug\Main.obj
+         Debug\Tiro.obj
+         Debug\TiroInimigo.obj
+         Shutar_NewAP.vcxproj -> C:\Users\Paulo\Documents\Visual Studio 2013\Projects\shutar-master\Debug\Shutar_NewAP.exe
+     1>Done Building Project "C:\Users\Paulo\Documents\Visual Studio 2013\Projects\shutar-master\Shutar_NewAP\Shutar_NewAP.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.22
