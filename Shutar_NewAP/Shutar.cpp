@@ -134,6 +134,7 @@ void Shutar::Setup()
 
 	//carrega mapa
 	mapa = C2D2M_CarregaMapaMappy("mapa5.FMP", "sheetstar01.png");
+	//mapa = C2D2M_CarregaMapaMappy("fase01_(90x90).FMP", "sheetstar01.png");
 	
 	int numcamadas = 4;
 	//define a marca inical dos tiles programados da chien

@@ -83,7 +83,8 @@ bool Nave_Atualiza(Ator *a, unsigned int mapa)
 
 			case EVT_COLIDIU_PERSONAGEM:
 			{
-				if (a->vidas == 0)
+				//se vida chegou ao fim encerra o ator
+				if (a->vidas <= 0)
 					ATOR_TrocaEstado(a, ATOR_ENCERRADO, false);
 
 
@@ -97,6 +98,8 @@ bool Nave_Atualiza(Ator *a, unsigned int mapa)
 
 				if (ev.subtipo == MINIRED || ev.subtipo == BATROBO || ev.subtipo == MINISHOOTER || ev.subtipo == REDBOSS)
 				{
+					if (a->vidas <= 0)
+						ATOR_TrocaEstado(a, ATOR_ENCERRADO, false);
 
 					a->vidas = a->vidas - 3;
 
@@ -104,7 +107,7 @@ bool Nave_Atualiza(Ator *a, unsigned int mapa)
 				}
 
 
-				//se vida chegou ao fim encerra o ator
+
 			}
 
 				break;
@@ -228,7 +231,7 @@ bool Nave_Atualiza(Ator *a, unsigned int mapa)
 
 			case EVT_COLIDIU_PERSONAGEM:
 			{
-				if (a->vidas == 0)
+				if (a->vidas <= 0)
 					ATOR_TrocaEstado(a, ATOR_ENCERRADO, false);
 
 
@@ -242,6 +245,8 @@ bool Nave_Atualiza(Ator *a, unsigned int mapa)
 
 				if (ev.subtipo == MINIRED || ev.subtipo == BATROBO || ev.subtipo == MINISHOOTER || ev.subtipo == REDBOSS)
 				{
+					if (a->vidas <= 0)
+						ATOR_TrocaEstado(a, ATOR_ENCERRADO, false);
 
 					a->vidas = a->vidas - 3;
 
@@ -380,7 +385,7 @@ bool Nave_Atualiza(Ator *a, unsigned int mapa)
 
 			case EVT_COLIDIU_PERSONAGEM:
 			{
-				if (a->vidas == 0)
+				if (a->vidas <= 0)
 					ATOR_TrocaEstado(a, ATOR_ENCERRADO, false);
 
 
@@ -394,6 +399,9 @@ bool Nave_Atualiza(Ator *a, unsigned int mapa)
 
 				if (ev.subtipo == MINIRED || ev.subtipo == BATROBO || ev.subtipo == MINISHOOTER || ev.subtipo == REDBOSS)
 				{
+					if (a->vidas <= 0)
+						ATOR_TrocaEstado(a, ATOR_ENCERRADO, false);
+
 
 					a->vidas = a->vidas - 3;
 
